@@ -40,8 +40,8 @@ The challenge requires solving business problems across four key areas:
 | :--- | :--- | :--- | :--- |
 | **A. Node Exploration** | Infrastructure | [`Solution_Part_A.sql`](./Solution_Part_A.sql) | Calculate node movement frequency, regional distribution, and relocation percentiles. |
 | **B. Transactions** | Behavior | [`Solution_Part_B.sql`](./Solution_Part_B.sql) | Measure transaction totals, monthly active depositors, and closing balance growth. |
-| **C. Data Allocation** | Capacity Planning | [`Solution_Part_B.sql`](./Solution_Part_B.sql) | Provision storage using end-of-month, 30-day average, and real-time models. |
-| **D. Extra Challenge** | Growth Modeling | [`Solution_Part_B.sql`](./Solution_Part_B.sql) | Calculate daily non-compounding vs. 6% compounding interest data limits. |
+| **C. Data Allocation** | Capacity Planning | [`Solution_Part_B.sql`](./Solution_Part_C.sql) | Provision storage using end-of-month, 30-day average, and real-time models. |
+| **D. Extra Challenge** | Growth Modeling | [`Solution_Part_B.sql`](./Solution_Part_D.sql) | Calculate daily non-compounding vs. 6% compounding interest data limits. |
 
 ---
 
@@ -50,16 +50,4 @@ The challenge requires solving business problems across four key areas:
 * **Relocation Speed:** Customers rotate nodes every **~14 days** on average for security load balancing.
 * **Storage Allocation:** **Real-time balance tracking** prevents infrastructure over-provisioning compared to static monthly balance caps.
 
----
-
-## 🚀 Quickstart
-
-1. **Clone Repo:**
-   ```bash
-   git clone [https://github.com/your-username/sql-case-study-4-data-bank.git](https://github.com/your-username/sql-case-study-4-data-bank.git)
-
-## 🔑 Key Takeaways
-
-* **Relocation Speed:** Customers rotate nodes every **~14 days** on average for security load balancing.
-* **Storage Allocation:** **Real-time balance tracking** prevents infrastructure over-provisioning compared to static monthly balance caps.
 
