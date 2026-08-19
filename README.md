@@ -18,3 +18,31 @@ My solution for **Case Study #4 (Data Bank)** from Danny Ma's **[8 Week SQL Chal
 * **`regions`**: Regional distribution mapping (`region_id`, `region_name`).
 * **`customer_nodes`**: Customer node assignments and movement history (`start_date`, `end_date`).
 * **`customer_transactions`**: All deposits, withdrawals, and purchases (`txn_type`, `txn_amount`).
+
+---
+
+## 🎯 Case Study Breakdown & Solutions
+
+| Section | Focus Area | Key Metrics Analyzed |
+| :--- | :--- | :--- |
+| **A. Node Exploration** | Infrastructure | Node distribution, relocation frequency, regional customer counts |
+| **B. Transactions** | Behavior | Deposit vs. churn, monthly active users, closing balances |
+| **C. Data Allocation** | Capacity Planning | End-of-month, 30-day average, and real-time running balance limits |
+| **D. Extra Challenge** | Growth Modeling | Impact of 6% annual compounding/non-compounding interest on storage |
+
+> 📁 **[View All SQL Solutions](./solution.sql)**
+
+---
+
+## 🔑 Key Takeaways
+
+* **Relocation Speed:** Customers rotate nodes every **~14 days** on average for security load balancing.
+* **Storage Allocation:** **Real-time balance tracking** prevents infrastructure over-provisioning compared to static monthly balance caps.
+
+---
+
+## 🚀 Quickstart
+
+1. **Clone Repo:**
+   ```bash
+   git clone [https://github.com/your-username/sql-case-study-4-data-bank.git](https://github.com/your-username/sql-case-study-4-data-bank.git)
