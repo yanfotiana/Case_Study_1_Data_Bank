@@ -45,9 +45,12 @@ The challenge requires solving business problems across four key areas:
 
 ---
 
-## 🔑 Key Takeaways
+## 💭 Reflection & Personal Takeaways
 
-* **Relocation Speed:** Customers rotate nodes every **~14 days** on average for security load balancing.
-* **Storage Allocation:** **Real-time balance tracking** prevents infrastructure over-provisioning compared to static monthly balance caps.
+Working through this case study reinforced how critical SQL is for bridging raw database operations with strategic business decisions. 
+
+* **Translating Business Rules into Code:** The trickiest aspect was modeling real-time data allocation vs. static monthly balance caps. It forced me to think beyond standard `GROUP BY` aggregations and design dynamic CTE pipelines using window frame clauses (`ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`) to accurately capture balance fluctuations as they happen.
+* **Data Hygiene & Edge Cases:** Working with node start and end dates highlighted the importance of clean date arithmetic and percentile functions when accounting for extreme outliers in customer relocation cycles.
+* **Growth & Optimization:** Tackling the interest growth logic in Section D was a great exercise in converting mathematical algorithms (daily compounding math) into pure SQL logic, reinforcing how data engineering decisions directly impact product limits and server costs.
 
 
