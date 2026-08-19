@@ -21,7 +21,7 @@ My solution for **Case Study #4 (Data Bank)** from Danny Ma's **[8 Week SQL Chal
 
 ---
 
-## 🎯 Case Study Breakdown & Solutions
+## 🎯 Case Study Breakdown 
 
 | Section | Focus Area | Key Metrics Analyzed |
 | :--- | :--- | :--- |
@@ -30,7 +30,6 @@ My solution for **Case Study #4 (Data Bank)** from Danny Ma's **[8 Week SQL Chal
 | **C. Data Allocation** | Capacity Planning | End-of-month, 30-day average, and real-time running balance limits |
 | **D. Extra Challenge** | Growth Modeling | Impact of 6% annual compounding/non-compounding interest on storage |
 
-> 📁 **[View All SQL Solutions](./solution.sql)**
 
 ---
 
@@ -39,10 +38,3 @@ My solution for **Case Study #4 (Data Bank)** from Danny Ma's **[8 Week SQL Chal
 * **Relocation Speed:** Customers rotate nodes every **~14 days** on average for security load balancing.
 * **Storage Allocation:** **Real-time balance tracking** prevents infrastructure over-provisioning compared to static monthly balance caps.
 
----
-
-## 🚀 Quickstart
-
-1. **Clone Repo:**
-   ```bash
-   git clone [https://github.com/your-username/sql-case-study-4-data-bank.git](https://github.com/your-username/sql-case-study-4-data-bank.git)
